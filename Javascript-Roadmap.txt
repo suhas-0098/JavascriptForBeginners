@@ -1,0 +1,32 @@
+Basic
+-------
+
+1. What is Javascript and its features
+2. Variables in Javascript
+3. Data types
+4. Operators
+5. Conditional and Control Statements
+6. Loops
+7. Data Structures
+8. Scope
+9. Objects
+10. Functions
+11. Form Validations
+12. DOM Manipulation
+13. Events
+14. BOM Elements
+
+
+Advanced
+---------
+
+15. Prototyping
+16. Prototyping Inheritance
+17. Call backs
+18. IIFE
+19. Promises
+20. Ajax
+21. Async Await
+22. Closures
+23. OPPs Concepts
+24. JSON
