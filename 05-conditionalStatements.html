@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conditional Statement</title>
+</head>
+<body>
+  <script>
+
+    // var a = prompt("Enter the number : ")
+    // document.write(a);
+
+    // if(a>=0){
+    //   document.write("Positive number")
+    // }
+    // else{
+    //   alert("Enter positive number")
+    //   document.write("negative number");
+    // }
+
+    // let x = 5
+    // let y = 10
+    // let z = 15
+
+    // if(x>y && x>z){
+    //   document.write(x);
+    // }
+    // else if (y>x && y>z){
+    //   document.write(y);
+    // }
+    // else{
+    //   document.write(z);
+    // }
+
+    var num1 = parseInt(prompt("Enter number 1 "));
+    var num2 = parseInt(prompt("Enter number 2 "));
+    var operation = prompt("Enter which operation to do (+,-,*,/)")
+
+    switch(operation){
+      case '+': document.write(`Sum of ${num1} and ${num2} is : ${(num1+num2)}`)
+      break;
+
+      case '-':document.write(`subraction of ${num1} and ${num2} is : ${num1-num2}`)
+      break;
+
+      case '*':document.write(`Mutiplication  of ${num1} and ${num2} is : ${num1*num2}`)
+      break;
+
+      case '/':document.write(`Division  of ${num1} and ${num2} is : ${num1/num2}`)
+      break;
+
+      default : document.write("Invalid operation ")
+
+      
+    }
+
+
+
+
+  </script>
+  
+</body>
+</html>
